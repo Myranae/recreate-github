@@ -5,6 +5,7 @@ import LoginControls from "./components/LoginControls";
 import NavigationBar from "./components/NavigationBar";
 import NewsletterForm from "./components/NewsletterForm";
 import SearchBar from "./components/SearchBar";
+import StatsBar from "./components/StatsBar";
 
 function App() {
     return (
@@ -18,6 +19,9 @@ function App() {
                 <HeroSection />
                 <NewsletterForm />
             </main>
+            <footer>
+                <StatsBar />
+            </footer>
         </div>
     );
 }
