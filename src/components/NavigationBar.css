@@ -1,0 +1,12 @@
+.navigation-bar_div {
+    
+}
+
+.navigation-bar_ul {
+    display: flex;
+}
+
+.navigation-bar_li {
+    flex-direction: row;
+    /* display: inline-block; */
+}
