@@ -3,6 +3,7 @@ import "./App.css";
 import HeroSection from "./components/HeroSection";
 import LoginControls from "./components/LoginControls";
 import NavigationBar from "./components/NavigationBar";
+import NewsletterForm from "./components/NewsletterForm";
 import SearchBar from "./components/SearchBar";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             </header>
             <main>
                 <HeroSection />
+                <NewsletterForm />
             </main>
         </div>
     );
